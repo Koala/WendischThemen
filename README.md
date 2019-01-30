@@ -6,7 +6,7 @@ Eine lose Sammlung von Worten in wendischer Sprache - thematisch sortiert. Gleic
 Sprachcode nach ISO 639-3: dsb (Dolnoserbski)
 
 
-** Hinweis **
+**Hinweis**
 
 Auf Besonderheiten soll durch Abkürzungen hingewiesen werden.
 
