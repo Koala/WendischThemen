@@ -11,6 +11,8 @@ Jetzt ist folgendes damit möglich:
 2. Es kann ein Wort im Browser markiert werden, dann wird auf das Lesezeichen geklickt und es wird ein neuer Tab im Browser
    geöffnet und die Suche nach dem zuvor markierten Wort startet sofort.
 
+Video als [schnelle Version](https://github.com/Koala/WendischThemen/blob/master/Bookmarklet/vid_schnell-bookmarklet_1280x720.mp4?raw=true) oder Video als [langsame Version](https://github.com/Koala/WendischThemen/blob/master/Bookmarklet/vid_langsam-bookmarklet_1280x720.mp4?raw=true)
+
 Getestet mit Firefox Version 76.0 - 30.04.2020
 
 ### Deutsch-Niedersorbisches Wörterbuch
