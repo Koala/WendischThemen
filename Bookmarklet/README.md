@@ -79,3 +79,6 @@ javascript:s=document.getSelection();if(!s||s==%22%22){void(s=prompt(%27"Ungenau
 ### die Eingabe:
 
 ![Geöffnetes Suchfenster](img_Geoeffnetes_Suchfenster.png)
+
+
+Kurzlink: https://t1p.de/DNS-Bookmarklets
