@@ -66,10 +66,12 @@ http://dolnoserbski.de/ndw/pytanje?slownik=*&psistup=serbski&pisanje=originalne&
 javascript:s=document.getSelection();if(!s||s==%22%22){void(s=prompt(%27"Ungenaue%20Wortsuche".%20Suchbegriff%20auf%20Sorbisch%20eingeben:%27,%27%27));};if(s){w=open(%27http://dolnoserbski.de/ndw/pytanje?wuraz=%27+encodeURIComponent(s)+%27&slownik=*&psistup=serbski&pisanje=originalne&pozicija=srjedk%27,%27%27,%27%27);w.focus();}
 ```
 
-##Beispiel
+## Beispiel
 
-###Link erstellen
+### Link erstellen:
 
 ![Link-Fenster](img_Link-Erstellen-Fenster.png)
+
+### die Eingabe:
 
 ![Geöffnetes Suchfenster](img_Geoeffnetes_Suchfenster.png)
