@@ -52,14 +52,14 @@ javascript:s=document.getSelection();if(!s||s==%22%22){void(s=prompt(%27Suche%20
 
 ## Dolnoserbsko-nimske słowniki
 
-http://dolnoserbski.de/ndw/pytanje?slownik=\*&psistup=serbski&pisanje=originalne&pozicija=slowo
+http://dolnoserbski.de/ndw/pytanje?slownik=*&psistup=serbski&pisanje=originalne&pozicija=slowo
 
 **genaue Suche (alle Bücher, Niedersorbisch, Original, Suche ganzes Wort)**
 ```
 javascript:s=document.getSelection();if(!s||s==%22%22){void(s=prompt(%27Suchbegriff%20auf%20Sorbisch%20eingeben:%27,%27%27));};if(s){w=open(%27http://dolnoserbski.de/ndw/pytanje?wuraz=%27+encodeURIComponent(s)+%27&slownik=*&psistup=serbski&pisanje=originalne&pozicija=slowo%27,%27%27,%27%27);w.focus();}
 ```
 
-http://dolnoserbski.de/ndw/pytanje?slownik=\*&psistup=serbski&pisanje=originalne&pozicija=srjedk
+http://dolnoserbski.de/ndw/pytanje?slownik=*&psistup=serbski&pisanje=originalne&pozicija=srjedk
 
 **ungenaue Suche (alle Bücher, Niedersorbisch, Original, Suche im Wort)**
 ```
