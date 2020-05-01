@@ -13,7 +13,7 @@ Jetzt ist folgendes damit möglich:
 
 Ein Erklärvideo als [schnelle Version](https://github.com/Koala/WendischThemen/blob/master/Bookmarklet/vid_schnell-bookmarklet_1280x720.mp4?raw=true) oder als [langsame Version](https://github.com/Koala/WendischThemen/blob/master/Bookmarklet/vid_langsam-bookmarklet_1280x720.mp4?raw=true).
 
-Achtung! Nur download, kein direktes Abspielen hier möglich.
+Achtung! Beide Versionen sind rund 21 MB groß! Nur download, kein direktes Abspielen hier möglich ist.
 
 Getestet mit Firefox Version 76.0 - 30.04.2020
 
