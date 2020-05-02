@@ -1,8 +1,8 @@
-#Herausvorderungen beim Schreiben von Sonderzeichen
+# Herausvorderungen beim Schreiben von Sonderzeichen
 
 Das Nachfolgende wird etwas technisch ;-)
 
-##System: Linux
+## System: Linux
 
 Das Schreiben der Sonderzeichen (ě, č, ŕ, ń usw.) kann machnchmal sehr mühsam sein.
 
@@ -13,13 +13,13 @@ Verwendetes System: Debian 10
 
 xmodmap -pk
 
-##Tipp
+## Tipp
 Verkonfiguriert?
 
 Verwende "setxkbmap" ohne weitere Option um dein Layout wieder zurückzusetzen.
 Siehe: https://askubuntu.com/a/1155211 (How do I clear xmodmap settings?)
 
-##Die Datei "".Xmodmap":
+## Die Datei "".Xmodmap":
 
 ```
 ! Reload this file with:
