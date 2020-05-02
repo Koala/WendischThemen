@@ -1,3 +1,5 @@
+**[Startseite](README.md)** || **[Linux](Linux.md)** || **[Smartphones](Smartphones.md)**
+
 # Windows
 
 ## Windows 10

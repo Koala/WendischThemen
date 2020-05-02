@@ -1,3 +1,5 @@
+**[Startseite](README.md)** || **[Windows](Windows.md)** || **[Smartphones](Smartphones.md)**
+
 # Linux
 
 Das Nachfolgende wird etwas technisch ;-)
@@ -11,11 +13,11 @@ Verwendetes System: Debian 10
 
 xmodmap -pk
 
-## Tipp
+### Tipp
 Verkonfiguriert?
 
-Verwende "setxkbmap" ohne weitere Option um dein Layout wieder zurückzusetzen.
-Siehe: https://askubuntu.com/a/1155211 (How do I clear xmodmap settings?)
+Verwende **setxkbmap** ohne weitere Option um dein Layout wieder zurückzusetzen.
+Siehe: [How do I clear xmodmap settings?](https://askubuntu.com/a/1155211)
 
 ## Die Datei ".Xmodmap":
 
@@ -37,8 +39,8 @@ keycode 49 = dead_caron degree dead_circumflex dead_caron dead_circumflex U2032
 
 ## Hinweis - falls "zoom" unter Debian Stretch installiert ist
 
-zoom benötigt das Paket ibus. Dieses wird automatisch mit installiert.
-Bei Debian Stretch wird aber ibus nicht automatisch mit gestartet.
+zoom benötigt das Paket **ibus**. Dieses wird automatisch mit installiert.
+Bei Debian Stretch wird aber **ibus** nicht automatisch mit gestartet.
 Bei Debian Buster sind die notwendigen Dateien für den automatische Start vorhanden.
 
 Der automatische Start kann wie folgt erstellt werden.
@@ -50,7 +52,7 @@ touch ibus.sh
 chmod 744 ibus.sh
 ```
 
-Schreibe in die ibus.sh
+Schreibe in die **ibus.sh**
 ```
 #!/usr/bin/env bash
 exec ibus-daemon -drx
@@ -61,7 +63,7 @@ cd ~
 touch .xprofile
 ```
 
-Schreibe in die .xprofile
+Schreibe in die **.xprofile**
 ```
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus

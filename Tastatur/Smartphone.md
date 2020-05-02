@@ -1,3 +1,5 @@
+**[Startseite](README.md)** || **[Windows](Windows.md)** || **[Linux](Linux.md)**
+
 # Apple iPhone
 
 In der deutschen Tastatur fehlen Zeichen wie z.B. das "ě"
