@@ -13,7 +13,7 @@ Debian 10 (Buster) und Debian 9 (Stretch) jeweils mit KDE und deutscher QWERTZ-T
 Im einfachsten Fall, sind Akut, Caron und ł über die Tastatur wie folgt erreichbar.  
 * [Akut](https://de.wikipedia.org/wiki/Akut)  
 Befindet sich zwischen **ß** und **Backspace** (Rückschritttaste)  
-Drücke diese Taste einmal und danach z.B. das c => ć bzw. für den Großbuchstaben **Shift**+**c**  
+Drücke diese Taste einmal und danach z.B. das c => ć bzw. für den Großbuchstaben **Shift**+**c** => Ć  
 * [Caron](https://de.wikipedia.org/wiki/Hatschek)  
 Befindet sich "versteckt" unter dem **ä**  
 Drücke gleichzeitig **AltGr**+**Shift**+**ä** und danach z.B. das c => č  
@@ -38,13 +38,25 @@ Siehe: [How do I clear xmodmap settings?](https://askubuntu.com/a/1155211)
 
 ## Vorbereitung
 
-Benötigt wird das Acute und das Caron (Hatschek)
-
-Speichere erst einmal das aktuelle Layout.
+Das Caron wird im folgenden auf die Taste links neben der 1 gelegt.  
+Bevor es richtig los geht, wird das aktuelle Tastaturlayout in einer Datei gespeichert.  
+Dies geschieht mit:  
 
 **xmodmap -pk > layout.txt**
 
+Nun sieh nach, ob die benötigte Taste wie in meinem Beispiel, den KeyCode 49 hat.
+Du kannst in der Datei layout.txt danach suchen oder einfach diesen Befehl ausführen:  
 
+**xmodmap -pk | grep dead_circumflex**
+
+Die Ausgabe könnte dann so aussehen:  
+
+    48         0x00e4 (adiaeresis)     0x00c4 (Adiaeresis)     0x00e4 (adiaeresis)     0x00c4 (Adiaeresis)     0xfe52 (dead_circumflex)  0xfe5a (dead_caron)     0xfe52 (dead_circumflex)        0xfe5a (dead_caron)
+    49         0xfe52 (dead_circumflex)        0x00b0 (degree) 0xfe52 (dead_circumflex)        0x00b0 (degree) 0x1002032 (U2032) 0x1002033 (U2033)       0x1002032 (U2032)
+
+KeyCode 49 enthält hier das **^** (dead_circumflex) und das **°** (degree) Zeichen.  
+Sollte bei dir eine andere Nummer für diese beiden Zeichen erscheinen, dann verwende im weiteren Verlauf diese Nummer.  
+Als nächstes muss die Datei **.Xmodmap** erstellt werden. Es ist auf die Schreibweise, am Anfang der Punkt und ein großes X, zu achten.  
 
 
 ## Die Datei ".Xmodmap":
@@ -63,12 +75,16 @@ keycode 49 = dead_caron degree dead_circumflex dead_caron dead_circumflex U2032
 ! Originalbelegung:
 ! keycode  49 = dead_circumflex degree dead_circumflex degree U2032 U2033 U2032
 ```
-Die Datei muss im Home des Benutzers abgelegt werden. Sie wird dann beim Systemstart automatisch geladen.
+Nicht verwirren lassen, von der mehrfachen Nennung des dead_caron in der Datei. Das muss so sein :-D  
+Die Datei muss im Home-Verzeichnis des Benutzers abgelegt werden. Sie wird dann beim Systemstart automatisch geladen.
 
-Händisch kann die Datei über eine Konsole geladen werden:
+Händisch kann die Datei mit dem Befehl **xmodmap** über eine Konsole geladen werden. Die Änderungen werden sofort ausgeführt.  
 
 **xmodmap .Xmodmap**
 
+Sollte etwas nicht stimmen, kann nachgesehen werden, ob das dead_caron richtig übernommen wurde.  
+
+**xmodmap -pk | grep dead_caron**
 
 
 ## Hinweis - falls "zoom" unter Debian Stretch installiert ist
