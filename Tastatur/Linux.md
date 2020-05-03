@@ -6,7 +6,7 @@ Das Nachfolgende wird etwas technisch ;-)
 
 Da Linux ein sehr flexibles System ist, kann hier nur der aktuelle Stand wiedergegeben werden.
 
-Verwendetes System: Debian 10 (Buster)
+Verwendete und getestete Systeme: Debian 10 (Buster) und Debian 9 (Stretch) jeweils mit KDE
 
 
 ### vorab ein Tipp
@@ -19,7 +19,7 @@ Siehe: [How do I clear xmodmap settings?](https://askubuntu.com/a/1155211)
 
 Benötigt wird das Acute und das Caron (Hatschek)
 
-Speichere ersteinmal das aktuelle Layout.
+Speichere erst einmal das aktuelle Layout.
 
 **xmodmap -pk > layout.txt**
 
