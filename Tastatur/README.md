@@ -1,3 +1,5 @@
+## |\\| **[Linux](Linux.md)** |X| **[Windows](Windows.md)** |X| **[Smartphone](Smartphone.md)** |/|  
+
 # Herausvorderungen beim Schreiben von Sonderzeichen mit Akut und Caron
 
 Stand: 03.05.2020  

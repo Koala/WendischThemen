@@ -1,7 +1,5 @@
 ## |\\| **[Startseite](README.md)** |X| **[Windows](Windows.md)** |X| **[Linux](Linux.md)** |/|  
 
----
-
 **[Apple iPhone](#Apple-iPhone)** <<>> **[Android](#Android)**  
 
 # Apple iPhone

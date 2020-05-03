@@ -1,4 +1,4 @@
-**[Startseite](README.md)** || **[Windows](Windows.md)** || **[Smartphone](Smartphone.md)**
+## |\\| **[Startseite](README.md)** |X| **[Windows](Windows.md)** |X| **[Smartphone](Smartphone.md)** |/|  
 
 # Linux
 
