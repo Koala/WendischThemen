@@ -59,7 +59,7 @@ Sollte bei dir eine andere Nummer für diese beiden Zeichen erscheinen, dann ver
 Als nächstes muss die Datei **.Xmodmap** erstellt werden. Es ist auf die Schreibweise, am Anfang der Punkt und ein großes X, zu achten.  
 
 
-## Die Datei ".Xmodmap":
+## Die Datei ".Xmodmap"
 
 ```
 ! Reload this file with:
@@ -86,6 +86,16 @@ Sollte etwas nicht stimmen, kann nachgesehen werden, ob das dead_caron richtig �
 
 **xmodmap -pk | grep dead_caron**
 
+Bei mir sieht das jetzt so aus:
+
+    48         0x00e4 (adiaeresis)     0x00c4 (Adiaeresis)     0x00e4 (adiaeresis)     0x00c4 (Adiaeresis)     0xfe52 (dead_circumflex)  0xfe5a (dead_caron)     0xfe52 (dead_circumflex)        0xfe5a (dead_caron)
+    49         0xfe5a (dead_caron)     0x00b0 (degree) 0xfe52 (dead_circumflex)        0xfe5a (dead_caron)     0xfe52 (dead_circumflex)  0x1002032 (U2032)
+
+Das Caron erscheint nun nach einmaligem Druck auf die Taste. Das Grad-Zeichen mittels der Shift-Taste und das Circumfelx ist auch noch auf der Taste. Jetzt allerdings erreichbar mit **AltGr**+die Taste.
+
+Auf diese Art und Weise kann auch eine beliebig andere Taste verändert werden. Je nach Arbeitsweise.  
+Linux ist da sehr, sehr flexibel ;-D  
+Und solltest du dich mal vertan haben, führe einfach ein [Reset](vorab-ein-Tipp) aus.
 
 ## Hinweis - falls "zoom" unter Debian Stretch installiert ist
 
