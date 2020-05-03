@@ -1,4 +1,6 @@
-**[Startseite](README.md)** || **[Windows](Windows.md)** || **[Linux](Linux.md)**
+**[Startseite](README.md)** || **[Windows](Windows.md)** || **[Linux](Linux.md)**  
+
+**[Apple iPhone](#Apple-iPhone)** <<>> **[Android](#Android)**
 
 # Apple iPhone
 
