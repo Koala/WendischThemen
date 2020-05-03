@@ -4,16 +4,17 @@
 
 Da Linux ein sehr flexibles System ist, kann hier nur der aktuelle Stand wiedergegeben werden.
 
-Verwendete und getestete Systeme: Debian 10 (Buster) und Debian 9 (Stretch) jeweils mit KDE und deutscher QWERTZ-Tastatur
+Verwendete und getestete Systeme:  
+Debian 10 (Buster) und Debian 9 (Stretch) jeweils mit KDE und deutscher QWERTZ-Tastatur  
 
 ---
 ## Der Standard
 
 Im einfachsten Fall, sind Akut, Caron und ł über die Tastatur wie folgt erreichbar.  
-* Akut ´  
+* [Akut](https://de.wikipedia.org/wiki/Akut)  
 Befindet sich zwischen **ß** und **Backspace** (Rückschritttaste)  
 Drücke diese Taste einmal und danach z.B. das c => ć bzw. für den Großbuchstaben **Shift**+c  
-* Caron ̌  
+* [Caron](https://de.wikipedia.org/wiki/Hatschek)  
 Befindet sich "versteckt" unter dem **ä**  
 Drücke gleichzeitig **AltGr**+**Shift**+**ä** und danach z.B. das c => č  
 Bzw. für den Großbuchstaben drücke gleichzeitig **AltGr**+**Shift**+**ä** und dann **Shift**+**c** => Č  
