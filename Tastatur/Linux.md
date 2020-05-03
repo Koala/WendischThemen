@@ -4,20 +4,27 @@
 
 Das Nachfolgende wird etwas technisch ;-)
 
-Das Schreiben der Sonderzeichen (ě, č, ŕ, ń usw.) kann machnchmal sehr mühsam sein.
-
 Da Linux ein sehr flexibles System ist, kann hier nur der aktuelle Stand wiedergegeben werden.
-Verwendetes System: Debian 10
+
+Verwendetes System: Debian 10 (Buster)
 
 
-
-xmodmap -pk
-
-### Tipp
+### vorab ein Tipp
 Verkonfiguriert?
 
-Verwende **setxkbmap** ohne weitere Option um dein Layout wieder zurückzusetzen.
+Verwende **setxkbmap** ohne weitere Option um dein Layout wieder zurückzusetzen.  
 Siehe: [How do I clear xmodmap settings?](https://askubuntu.com/a/1155211)
+
+## Vorbereitung
+
+Benötigt wird das Acute und das Caron (Hatschek)
+
+Speichere ersteinmal das aktuelle Layout.
+
+**xmodmap -pk > layout.txt**
+
+
+
 
 ## Die Datei ".Xmodmap":
 
@@ -35,16 +42,22 @@ keycode 49 = dead_caron degree dead_circumflex dead_caron dead_circumflex U2032
 ! Originalbelegung:
 ! keycode  49 = dead_circumflex degree dead_circumflex degree U2032 U2033 U2032
 ```
+Die Datei muss im Home des Benutzers abgelegt werden. Sie wird dann beim Systemstart automatisch geladen.
+
+Händisch kann die Datei über eine Konsole geladen werden:
+
+**xmodmap .Xmodmap**
+
 
 
 ## Hinweis - falls "zoom" unter Debian Stretch installiert ist
 
-zoom benötigt das Paket **ibus**. Dieses wird automatisch mit installiert.
-Bei Debian Stretch wird aber **ibus** nicht automatisch mit gestartet.
-Bei Debian Buster sind die notwendigen Dateien für den automatische Start vorhanden.
+zoom benötigt das Paket **ibus**. Dieses wird automatisch mit installiert.  
+Bei Debian Stretch wird aber **ibus** nicht automatisch mit gestartet.  
+Bei Debian Buster sind die notwendigen Dateien für den automatische Start vorhanden.  
 
-Der automatische Start kann wie folgt erstellt werden.
-Diese Einstellung muss in jedem Benutzerverzeichnis einzeln erfolgen.
+Der automatische Start kann wie folgt erstellt werden.  
+Diese Einstellung muss in jedem Benutzerverzeichnis einzeln erfolgen.  
 
 ```
 cd ~/.config/autostart-scripts/
