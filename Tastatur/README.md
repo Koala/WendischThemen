@@ -5,7 +5,7 @@ Alles noch im Aufbau! :-)
 
 ## Vorwort
 
-Alle Angabe beziehen sich vorwiegend auf die Verwendung der *Niedersorbischen Sprache* da es einige Unterschiede zur Obersorbischen Sprache gibt. Auf die Uunterschiede soll hier aber nicht weiter eingegangen werden.
+Alle Angabe beziehen sich vorwiegend auf die Verwendung der **Niedersorbischen Sprache** da es einige Unterschiede zur Obersorbischen Sprache gibt. Auf die Uunterschiede soll hier aber nicht weiter eingegangen werden.
 
 Das niedersorbische Alphabet basiert auf dem Lateinischen Alphabet, verwendet aber diakritische Zeichen wie den [Akut](https://de.wikipedia.org/wiki/Akut) und das [Caron](https://de.wikipedia.org/wiki/Hatschek)(Kokolka). Die Standardzeichenkodierung für das Sorbische Alphabet ist ISO 8859-2 (Latin-2).(Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Niedersorbische_Sprache#Orthographie))  
 Sprachcode nach ISO 639-3: dsb - Niedersorbisch / hsb - Obersorbisch  
