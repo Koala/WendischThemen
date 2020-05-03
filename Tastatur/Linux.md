@@ -13,13 +13,13 @@ Debian 10 (Buster) und Debian 9 (Stretch) jeweils mit KDE und deutscher QWERTZ-T
 Im einfachsten Fall, sind Akut, Caron und ł über die Tastatur wie folgt erreichbar.  
 * [Akut](https://de.wikipedia.org/wiki/Akut)  
 Befindet sich zwischen **ß** und **Backspace** (Rückschritttaste)  
-Drücke diese Taste einmal und danach z.B. das c => ć bzw. für den Großbuchstaben **Shift**+c  
+Drücke diese Taste einmal und danach z.B. das c => ć bzw. für den Großbuchstaben **Shift**+**c**  
 * [Caron](https://de.wikipedia.org/wiki/Hatschek)  
 Befindet sich "versteckt" unter dem **ä**  
 Drücke gleichzeitig **AltGr**+**Shift**+**ä** und danach z.B. das c => č  
 Bzw. für den Großbuchstaben drücke gleichzeitig **AltGr**+**Shift**+**ä** und dann **Shift**+**c** => Č  
 * ł / Ł (lstroke)  
-Drücke **AltGr**+**l** => ł bzw. **AltGr**+**Shift**+l => Ł  
+Drücke **AltGr**+**l** => ł bzw. **AltGr**+**Shift**+**l** => Ł  
 
 
 Da mir das mit dem Caron schreiben auf Dauer aber zu umständlich war, habe ich eine Alternative ersonnen, die auf die gleiche Art und Weise wie bei Windows funktioniert.  
