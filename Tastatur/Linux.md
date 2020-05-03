@@ -95,7 +95,7 @@ Das Caron erscheint nun nach einmaligem Druck auf die Taste. Das Grad-Zeichen mi
 
 Auf diese Art und Weise kann auch eine beliebig andere Taste verändert werden. Je nach Arbeitsweise.  
 Linux ist da sehr, sehr flexibel ;-D  
-Und solltest du dich mal vertan haben, führe einfach ein [Reset](vorab-ein-Tipp) aus.
+Und solltest du dich mal vertan haben, führe einfach ein [Reset](#vorab-ein-Tipp) aus.
 
 ## Hinweis - falls "zoom" unter Debian Stretch installiert ist
 
