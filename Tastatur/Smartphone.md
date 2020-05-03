@@ -4,20 +4,26 @@
 
 Getestet und erprobt mit iOS 13 (Stand 2020) auf einem iPhone 6SE.  
 Dieses Verfahren sollte auch mit späteren iOS-Versionen funktionieren und dürfte Geräteunabhängig sein.
-(nur eine Vermutung in Ermangellung entsprechender Technik zum Testen ;-) )
+(nur eine Vermutung in Ermangellung entsprechender Technik zum Testen - Spenden sind Willkommen ;-) )
 
-In der deutschen Tastatur fehlen Zeichen wie z.B. das "ě"
-
+In der deutschen Tastatur fehlen Zeichen wie z.B. das "ě"  
 Hier kann zum Schreiben die Tschechische Tastatur verwendet werden.
-Die Sonderzeichen sind dann durch langes drücken der entsprechenden Buchstaben erreichbar.
-
-z.B. ě bei langem drücken auf das "e"
 
 ## Anleitung zum Einstellen der Tastatur
 
+* öffne die iOS-Einstellungen
+* gehe zu **Allgemein/Tastatur/Tastaturen**
+* hier dann unter **Tastatur hinzufügen ...** "Tschechisch (QWERTZ)" auswählen
+* fertig
 
+## Verwendung
 
-
+Wenn die Tastatur angezeigt wird, kann über ein längeres gedrückt halten (oder mehrfaches Antippen) des Globussymbols die Sprache geändert werden.  
+Für Tschechisch ist die Auswahl dann **Čeština**.  
+Das Schreiben der Sonderzeichen erfolgt über gedrückt halten des jeweiligen Buchstabens.  
+s enthält š und ś  
+l enthält ł  
+usw.  
 
 
 # Android
