@@ -4,7 +4,7 @@
 
 Da Linux ein sehr flexibles System ist, kann hier nur der aktuelle Stand wiedergegeben werden.
 
-[Verwendete und gestete Systeme](#gestetes-System)
+[Verwendete und getestete Systeme](#getestetes-System)
 
 ---
 ## Der Standard
@@ -136,7 +136,7 @@ Quelle: https://forum.manjaro.org/t/solved-kde-and-ibus/87662/10
 
 Das Paket **x11-xserver-utils** muss installiert sein. Darin enthalten ist das Programm **xmodmap**.  
 
-## gestetes System
+## getestetes System
 
 Mit diesen Systemen wurde diese Beschreibung getestet.  
 
@@ -144,9 +144,9 @@ Debian 10 (Buster) und Debian 9 (Stretch) jeweils mit KDE und deutscher QWERTZ-T
 Das System hat die Tastaturen selbstständig erkannt, so dass keine besonderen Einstellungen notwendig waren.  
 
 setxkbmap -query
-  rules:      evdev
-  model:      pc101
-  layout:     de
+    rules:      evdev
+    model:      pc101
+    layout:     de
 
 
 
