@@ -144,6 +144,7 @@ Debian 10 (Buster) und Debian 9 (Stretch) jeweils mit KDE und deutscher QWERTZ-T
 Das System hat die Tastaturen selbstständig erkannt, so dass keine besonderen Einstellungen notwendig waren.  
 
 setxkbmap -query
+
     rules:      evdev
     model:      pc101
     layout:     de
