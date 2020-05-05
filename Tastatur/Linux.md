@@ -29,6 +29,7 @@ Das Akut und des **ł** bleiben dabei unberührt und sind weiterhin ganz einfach
 
 Das Nachfolgende wird nun etwas technisch ;-)
 
+... es werden **keine** Root-Rechte benötigt (wenn die grundlegenden Pakete installiert sind) ... >> [Systemanvorderungen](#Systemanvorderungen)
 
 ### vorab ein Tipp
 Verkonfiguriert?
@@ -132,7 +133,10 @@ export QT_IM_MODULE=ibus
 
 Quelle: https://forum.manjaro.org/t/solved-kde-and-ibus/87662/10
 
+## Systemanvorderungen
+
+Das Paket **x11-xserver-utils** muss installiert sein. Darin enthalten ist das Programm **xmodmap**.  
 
 
 
-.
+[TOP](#Linux)  
