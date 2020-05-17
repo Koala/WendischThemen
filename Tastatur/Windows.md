@@ -62,8 +62,8 @@ Klicke das **l** an und klicke dann auf **All**:
 
 ![Menü File](assets/211_L.png) ![Menü File](assets/212_L_All.png)
 
-Im folgenden Fenster trage im unteren Bereich bei **ctrl+alt+<Key>** ein **U+0142** ein und
-bei **Shift+ctrl+alt+<Key>** ein **U+0141**. Angezeigte Zeichen rechts sind dann **ł** und **Ł**.    
+Im folgenden Fenster trage im unteren Bereich bei **ctrl+alt+\<Key>** ein **U+0142** ein und
+bei **Shift+ctrl+alt+\<Key>** ein **U+0141**. Angezeigte Zeichen rechts sind dann **ł** und **Ł**.    
 
 ![142+141](assets/214_L_142+141.png)
 
@@ -73,7 +73,7 @@ Das gleiche Vorgehen wie zuvor.
 ![Raute-Taste](assets/215_Altes_L.png)
 
 Taste anklicken, dann auf **All** und Fenster dann die Änderungen vornehmen.  
-Bei **<Key>** trage ein **U+0023**, bei **shift+<Key>** trage ein **U+0027**:  
+Bei **\<Key>** trage ein **U+0023**, bei **shift+\<Key>** trage ein **U+0027**:  
 
 ![0023+0027](assets/217_Altes_L_Neue_Einstellungen.png)
 
