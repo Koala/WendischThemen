@@ -44,11 +44,12 @@ Es kann sein, dass es noch eine Warnung wegen fehlendem **.NET Framework Version
 
 ![Warnung zu fehlendem .NET](assets/03_WarungDotNet.png)  
 
-Wie du das beheben kannst, findet du hier: [.NET Framework nachinstallieren](#.NET_Framework_nachinstallieren)  
+Wie du das beheben kannst, findet du hier (weiter unten): [.NET Framework nachinstallieren](#.NET_Framework_nachinstallieren)  
 
 Den Installationprozess in 3 Schritten durchgehen:  
 
 ![Schritt 1](assets/04_Install_Step_1.png) ![Schritt 2](assets/05_Install_Step_2.png) ![Schritt 3](assets/06_Install_Step_3.png)
+
 
 
 
