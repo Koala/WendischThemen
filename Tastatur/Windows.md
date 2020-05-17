@@ -32,20 +32,27 @@ Das fertige Layout befindet sich hier: [Layout_SorbischAngepasst](files/Layout_S
 Die Quelldatei, zum Import in den MKLC befindet sich hier: [Layout_SorbischAngepasst_Source](files/Layout_SorbischAngepasst_Source.klc).  
 
 ### los gehts
-1. Das Programm [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) downloaden
+1. Das Programm [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) downloaden  
 ![MKLC Internet](assets/01_MKLC.png)  
 und starten  
+
 ![MKLC gestartet](assets/02_MKLC.png)  
 
-Es kann sein, dass es noch eine Warnung wegen fehlendem **.NET Framework Version 2.0.50727** gibt ![Warnung zu fehlendem .NET](assets/03_WarungDotNet.png)  
+Es kann sein, dass es noch eine Warnung wegen fehlendem **.NET Framework Version 2.0.50727** gibt:  
+![Warnung zu fehlendem .NET](assets/03_WarungDotNet.png)  
+
 Wie du das beheben kannst, findet du hier: [.NET Framework nachinstallieren](#.NET_Framework_nachinstallieren)  
 
 
+---
 ### .NET Framework nachinstallieren
 
 [Anleitung auf Englisch](https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware/microsoft-keyboard-layout-creator-14-instalation/092881f1-470b-4a66-889f-59e868c6b25a?auth=1)
 
 - drücke die Taste **Windows Logo**+**R**
-- gibt ein **appwiz.cpl** und drücke **Enter** ![appwiz.cpl](assets/100_appwiz.cpl.png)  
-- klicke links den Link **Windows-Feature aktivieren oder deaktivieren** an ![Windows-Features](assets/101_WindowsFeatures.png)  
-- markiere das Kästchen neben **.NET Framework 3.5** ![.NET Framework 3.5](assets/102_NETFramework35.png)
+- gibt ein **appwiz.cpl** und drücke **Enter**  
+![appwiz.cpl](assets/100_appwiz.cpl.png)  
+- klicke links den Link **Windows-Feature aktivieren oder deaktivieren** an  
+![Windows-Features](assets/101_WindowsFeatures.png)  
+- markiere das Kästchen neben **.NET Framework 3.5**  
+![.NET Framework 3.5](assets/102_NETFramework35.png)  
