@@ -54,7 +54,7 @@ Dann das Programm starten:
 
 ![Windows Menü](assets/207_Programm_Start.png) ![Windows Menü](assets/208_Programm_Gestartet.png)
 
-Als erstes muss das benötigte Tastaturlayout geladen werden:  
+Als erstes muss das benötigte Tastaturlayout geladen werden (Sorbisch erweitert):  
 
 ![Menü File](assets/209_LoadExistingKeyboard.png) ![Layout Auswahl](assets/210_LoadExistingKeyboard_SorbischErweitert.png)
 
