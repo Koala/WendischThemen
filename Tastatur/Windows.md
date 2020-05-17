@@ -62,7 +62,61 @@ Klicke das **l** an und klicke dann auf **All**:
 
 ![Menü File](assets/211_L.png) ![Menü File](assets/212_L_All.png)
 
+Im folgenden Fenster trage im unteren Bereich bei **ctrl+alt+<Key>** ein **U+0142** ein und
+bei **Shift+ctrl+alt+<Key>** ein **U+0141**. Angezeigte Zeichen rechts sind dann **ł** und **Ł**.    
 
+![142+141](assets/214_L_142+141.png)
+
+So, jetzt noch den Tasten **#** und **'** wieder zu ihrern Ausgaben verhelfen.
+Das gleiche Vorgehen wie zuvor.  
+
+![Raute-Taste](assets/215_Altes_L.png)
+
+Taste anklicken, dann auf **All** und Fenster dann die Änderungen vornehmen.  
+Bei **<Key>** trage ein **U+0023**, bei **shift+<Key>** trage ein **U+0027**:  
+
+![0023+0027](assets/217_Altes_L_Neue_Einstellungen.png)
+
+Nun können die neuen Einstellungen getestet werden. Dazu im Menü **Project/Test Keyboard Layouut...** auswählen.  
+
+![Menü Layouttest](assets/218_Layout_Test.png)
+
+Im darauf folgenden Fenster kann munter drauf losgeschrieben werden:  
+
+![Layouttest](assets/219_Layout_Test.png)
+
+Wenn alles gut war, müssen noch ein paar Einstellungen vorgenommen werden.
+Öffne die Einstellungen im Menü unter **Project/Properties...***:  
+
+![Menü Properties](assets/220_Einstellungen.png)
+
+Hier kann nun ein Projekt-Name vergeben werden. Unter **Description** steht die Bezeichnung, mit der später die Tastatur in den Windowseinstellungen gefunden werden kann. **Company** und **Copyright** kann nach belieben befüllt oder leer gelassen werden.  
+**WICHTIG** ist die Einstellung bei **Language**. Hier muss von **Upper Sorbian (Germany)** auf **Lower Sorbian (Germany)** umgestellt werden. Rechts steht dann **DS**.
+
+![Language](assets/222_Sprache_LowerSorbian.png)
+
+Wenn das alles fertig ist, dann geht es jetzt an die Erstellung der DLL.  
+Starte mit dem Menü **Project/Build DLL and Setup Package** den Build Prozess:  
+
+![Language](assets/223_BuildDLL.png)
+
+Danach erscheint eine Meldung
+
+
+![Language](assets/222.png)
+![Language](assets/222.png)
+![Language](assets/222.png)
+![Language](assets/222.png)
+
+224_Warnung.png
+225_LayoutGeneriert.png
+226_InstallationComplete.png
+227_Systemeinstellungen.png
+228_Dolnoserb.png
+229_Dolnoserb_NachOben.png
+230_Dolnoserb_Optionen.png
+231_Dolnoserb_Tastatur.png
+232_SprachwahlSichtbar.png
 
 
 
