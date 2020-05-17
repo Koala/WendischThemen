@@ -48,7 +48,7 @@ Wie du das beheben kannst, findet du hier: [.NET Framework nachinstallieren](#.N
 
 Den Installationprozess in 3 Schritten durchgehen:  
 
-![Schritt 1](assets/04_Install_Step1.png) ![Schritt 2](assets/05_Install_Step2.png) ![Schritt 3](assets/06_Install_Step3.png)
+![Schritt 1](assets/04_Install_Step_1.png) ![Schritt 2](assets/05_Install_Step_2.png) ![Schritt 3](assets/06_Install_Step_3.png)
 
 
 
