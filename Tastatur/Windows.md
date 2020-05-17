@@ -16,3 +16,36 @@ Sollte nicht mehr verwendet werden. Aber wer es noch einsetzt ...
 Externer Link!  
 Der Inhalt bezieht sich auf Obersorbisch. Die Verfahrensweise gilt aber ebenso für Niedersorbisch.  
 [Sorbische Tastatur für Windows 7](https://domizna.org/index.php?id=2046)
+
+---
+
+## Windows 10 - alternative Möglichkeit
+
+Getestet mit Windows 10 - Version 1909  
+
+Mit Hilfe des Programmes [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) (kurz: **MKLC**) ist es möglich, ein Tastaturlayout an seine eigenen Bedürfnisse anzupassen.  
+
+An diesem Beispiel möchte ich zeigen, wie die Tastatur so angepasst werden kann, dass die Buchstaben **ł** und **Ł** über die Taste **l** bzw. **L** erreichbar sind und die Taste **#** ihre Funktion behält. Das **ł** beim **l** zu finden empfinde ich einfach viel intuitiver und es passt besser zum Layout unter [Linux](Linux.md).  
+
+### Vorab:
+Das fertige Layout befindet sich hier: [Layout_SorbischAngepasst](files/Layout_SorbischAngepasst.7z).  
+Die Quelldatei, zum Import in den MKLC befindet sich hier: [Layout_SorbischAngepasst_Source](files/Layout_SorbischAngepasst_Source.klc).  
+
+### los gehts
+1. Das Programm [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) downloaden
+![MKLC Internet](assets/01_MKLC.png)  
+und starten  
+![MKLC gestartet](assets/02_MKLC.png)  
+
+Es kann sein, dass es noch eine Warnung wegen fehlendem **.NET Framework Version 2.0.50727** gibt ![Warnung zu fehlendem .NET](assets/03_WarungDotNet.png)  
+Wie du das beheben kannst, findet du hier: [.NET Framework nachinstallieren](#.NET_Framework_nachinstallieren)  
+
+
+### .NET Framework nachinstallieren
+
+[Anleitung auf Englisch](https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware/microsoft-keyboard-layout-creator-14-instalation/092881f1-470b-4a66-889f-59e868c6b25a?auth=1)
+
+- drücke die Taste **Windows Logo**+**R**
+- gibt ein **appwiz.cpl** und drücke **Enter** ![appwiz.cpl](assets/100_appwiz.cpl.png)  
+- klicke links den Link **Windows-Feature aktivieren oder deaktivieren** an ![Windows-Features](assets/101_WindowsFeatures.png)  
+- markiere das Kästchen neben **.NET Framework 3.5** ![.NET Framework 3.5](assets/102_NETFramework35.png)
