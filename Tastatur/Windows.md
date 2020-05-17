@@ -34,21 +34,39 @@ Die Quelldatei, zum Import in den MKLC befindet sich hier: [Layout_SorbischAngep
 ### Los gehts
 Das Programm [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) downloaden:  
 
-![MKLC Internet](assets/01_MKLC.png)  
+![MKLC Internet](assets/201_MKLC.png)  
 
 und starten:  
 
-![MKLC gestartet](assets/02_MKLC.png)  
+![MKLC gestartet](assets/202_MKLC.png)  
 
 Es kann sein, dass es noch eine Warnung wegen fehlendem **.NET Framework Version 2.0.50727** gibt:  
 
-![Warnung zu fehlendem .NET](assets/03_WarungDotNet.png)  
+![Warnung zu fehlendem .NET](assets/203_WarungDotNet.png)  
 
 Wie du das beheben kannst, findet du hier (weiter unten): [.NET Framework nachinstallieren](#.NET_Framework_nachinstallieren)  
 
 Den Installationprozess in 3 Schritten durchgehen:  
 
-![Schritt 1](assets/04_Install_Step_1.png) ![Schritt 2](assets/05_Install_Step_2.png) ![Schritt 3](assets/06_Install_Step_3.png)
+![Schritt 1](assets/204_Install_Step_1.png) ![Schritt 2](assets/205_Install_Step_2.png) ![Schritt 3](assets/206_Install_Step_3.png)
+
+Dann das Programm starten:  
+
+![Windows Menü](assets/207_Programm_Start.png) ![Windows Menü](assets/208_Programm_Gestartet.png)
+
+Als erstes muss das benötigte Tastaturlayout geladen werden:  
+
+![Menü File](assets/209_LoadExistingKeyboard.png) ![Layout Auswahl](assets/210_LoadExistingKeyboard_SorbischErweitert.png)
+
+Klicke das **l** an und klicke dann auf **All**:  
+
+![Menü File](assets/211_L.png) ![Menü File](assets/212_L_All.png)
+
+
+
+
+
+
 
 
 
@@ -59,10 +77,10 @@ Den Installationprozess in 3 Schritten durchgehen:
 [Anleitung auf Englisch](https://answers.microsoft.com/en-us/windows/forum/windows_10-hardware/microsoft-keyboard-layout-creator-14-instalation/092881f1-470b-4a66-889f-59e868c6b25a?auth=1)
 
 - drücke die Taste **Windows Logo**+**R**
-- gibt ein **appwiz.cpl** und drücke **Enter**:  
+- gib **appwiz.cpl** ein und drücke **Enter**:  
 
 ![appwiz.cpl](assets/100_appwiz.cpl.png)  
-- klicke links den Link **Windows-Feature aktivieren oder deaktivieren** an:  
+- im erscheinenden Fenster klicke links den Link **Windows-Feature aktivieren oder deaktivieren** an:  
 
 ![Windows-Features](assets/101_WindowsFeatures.png)  
 - markiere das Kästchen neben **.NET Framework 3.5**:  
