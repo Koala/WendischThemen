@@ -25,18 +25,18 @@ Getestet mit Windows 10 - Version 1909
 
 Mit Hilfe des Programmes [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) (kurz: **MKLC**) ist es möglich, ein Tastaturlayout an seine eigenen Bedürfnisse anzupassen.  
 
-An diesem Beispiel möchte ich zeigen, wie die Tastatur so angepasst werden kann, dass die Buchstaben **ł** und **Ł** über die Taste **l** bzw. **L** erreichbar sind und die Taste **#** ihre Funktion behält. Das **ł** beim **l** zu finden empfinde ich einfach viel intuitiver und es passt besser zum Layout unter [Linux](Linux.md).  
+An diesem Beispiel möchte ich zeigen, wie die Tastatur so angepasst werden kann, dass die Buchstaben **ł** und **Ł** über die Taste **l** bzw. **L** erreichbar sind und die Taste **#** ihre Funktion behält. Das **ł** bei der Taste **l** zu finden empfinde ich einfach viel intuitiver und es passt besser zum Layout unter [Linux](Linux.md).  
 
 ### Vorab:
 Das fertige Layout befindet sich hier: [Layout_SorbischAngepasst](files/Layout_SorbischAngepasst.7z).  
 Die Quelldatei, zum Import in den MKLC befindet sich hier: [Layout_SorbischAngepasst_Source](files/Layout_SorbischAngepasst_Source.klc).  
 
-### los gehts
+### Los gehts
 Das Programm [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) downloaden:  
 
 ![MKLC Internet](assets/01_MKLC.png)  
 
-und starten  
+und starten:  
 
 ![MKLC gestartet](assets/02_MKLC.png)  
 
@@ -46,6 +46,11 @@ Es kann sein, dass es noch eine Warnung wegen fehlendem **.NET Framework Version
 
 Wie du das beheben kannst, findet du hier: [.NET Framework nachinstallieren](#.NET_Framework_nachinstallieren)  
 
+Den Installationprozess in 3 Schritten durchgehen:  
+
+![Schritt 1](assets/04_Install_Step1.png) ![Schritt 2](assets/05_Install_Step2.png) ![Schritt 3](assets/06_Install_Step3.png)
+
+
 
 ---
 ### .NET Framework nachinstallieren
@@ -54,8 +59,17 @@ Wie du das beheben kannst, findet du hier: [.NET Framework nachinstallieren](#.N
 
 - drücke die Taste **Windows Logo**+**R**
 - gibt ein **appwiz.cpl** und drücke **Enter**:  
+
 ![appwiz.cpl](assets/100_appwiz.cpl.png)  
 - klicke links den Link **Windows-Feature aktivieren oder deaktivieren** an:  
+
 ![Windows-Features](assets/101_WindowsFeatures.png)  
 - markiere das Kästchen neben **.NET Framework 3.5**:  
+
 ![.NET Framework 3.5](assets/102_NETFramework35.png)  
+
+- mit OK bestätigen und Windows die notwendigen Dateien automatisch herunterladen lassen:  
+
+![Dateien herunterladen](assets/103_DateienHerunterladen.png)
+
+- danach kann das Programm erneut gestartet werden  
