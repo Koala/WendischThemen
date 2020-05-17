@@ -2,8 +2,7 @@
 
 # Herausvorderungen beim Schreiben von Sonderzeichen mit Akut und Caron
 
-Stand: 03.05.2020  
-Alles noch im Aufbau! :-)
+Stand: Mai 2020  
 
 ## Vorwort
 
