@@ -129,9 +129,9 @@ Als nächstes **Optionen** anklicken. Hier sollte unter **Tastaturen** unsere ne
 ![Sprachwahl](assets/232_SprachwahlSichtbar.png)
 
 
-
-#### #### E N D E ####
-
+# # # # # # # # # # # # #   
+#### # # # # E N D E # # # #  
+# # # # # # # # # # # # #  
 
 
 ---
