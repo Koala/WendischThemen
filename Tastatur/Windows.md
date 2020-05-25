@@ -104,7 +104,7 @@ Danach erscheint eine Meldung die uns fragt, ob wir uns das Log ansehen wollen. 
 
 ![Warnung](assets/224_Warnung.png)
 
-Nach dem das Layout generiert wurde, kann die nächste Frage kann mit "Ja" beantwortet werden.  
+Nach dem das Layout generiert wurde, kann die nächste Frage dann mit "Ja" beantwortet werden.  
 
 ![Layout Generiert](assets/225_LayoutGeneriert.png)
 
@@ -130,7 +130,7 @@ Als nächstes **Optionen** anklicken. Hier sollte unter **Tastaturen** unsere ne
 
 
 
-
+#### #### E N D E ####
 
 
 
