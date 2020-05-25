@@ -67,17 +67,17 @@ bei **Shift+ctrl+alt+\<Key>** ein **U+0141**. Angezeigte Zeichen rechts sind dan
 
 ![142+141](assets/214_L_142+141.png)
 
-So, jetzt noch den Tasten **#** und **'** wieder zu ihrern Ausgaben verhelfen.
+So, jetzt noch den Tasten **#** und **'** wieder zu ihren Ausgaben verhelfen.
 Das gleiche Vorgehen wie zuvor.  
 
 ![Raute-Taste](assets/215_Altes_L.png)
 
-Taste anklicken, dann auf **All** und Fenster dann die Änderungen vornehmen.  
+Taste anklicken, dann auf **All** und im Fenster dann die Änderungen vornehmen.  
 Bei **\<Key>** trage ein **U+0023**, bei **shift+\<Key>** trage ein **U+0027**:  
 
 ![0023+0027](assets/217_Altes_L_Neue_Einstellungen.png)
 
-Nun können die neuen Einstellungen getestet werden. Dazu im Menü **Project/Test Keyboard Layouut...** auswählen.  
+Nun können die neuen Einstellungen getestet werden. Dazu im Menü **Project/Test Keyboard Layout...** auswählen.  
 
 ![Menü Layouttest](assets/218_Layout_Test.png)
 
@@ -100,24 +100,33 @@ Starte mit dem Menü **Project/Build DLL and Setup Package** den Build Prozess:
 
 ![Language](assets/223_BuildDLL.png)
 
-Danach erscheint eine Meldung
+Danach erscheint eine Meldung die uns fragt, ob wir uns das Log ansehen wollen. Wollen wir aber nicht.  
 
+![Warnung](assets/224_Warnung.png)
 
-![Language](assets/222.png)
-![Language](assets/222.png)
-![Language](assets/222.png)
-![Language](assets/222.png)
+Nach dem das Layout generiert wurde, kann die nächste Frage kann mit "Ja" beantwortet werden.  
 
-224_Warnung.png
-225_LayoutGeneriert.png
-226_InstallationComplete.png
-227_Systemeinstellungen.png
-228_Dolnoserb.png
-229_Dolnoserb_NachOben.png
-230_Dolnoserb_Optionen.png
-231_Dolnoserb_Tastatur.png
-232_SprachwahlSichtbar.png
+![Layout Generiert](assets/225_LayoutGeneriert.png)
 
+Im sich öffnenden Verzeichnis das Setup zur Installation starten und fertig wäre der erste Teil.  
+
+![Installation komplett](assets/226_InstallationComplete.png)
+
+Jetzt noch ein paar Einstellungen zur Sprache in den Windows eigenen Einstellungen. Öffne die Windowseinstellungen und gibt in das Suchfeld **sprache** ein; wähle dann **Sprache und Tastaturoptionen ändern** aus.   
+
+![Systemeinstellungen](assets/227_Systemeinstellungen.png)
+
+Im unteren Bereich sollte **Dolnoserbšćina** zur Auswahl stehen. Das einmal anklicken und mit einmal Klick auf den Pfeil nach (ganz) oben verschieben.  
+
+![Dolnoserbšćina](assets/228_Dolnoserb.png) ![nach oben](assets/229_Dolnoserb_NachOben.png)
+
+Als nächstes **Optionen** anklicken. Hier sollte unter **Tastaturen** unsere neue Tastatur zu sehen sein. In meinem Fall ist es **Sorbisch erweitert - Custom**    
+
+![Optionen](assets/230_Dolnoserb_Optionen.png) ![Tastatur](assets/231_Dolnoserb_Tastatur.png)
+
+... und rechts untem im Systemtray erscheint nun der Sprachumschalter mit vorausgeähltem **DSB**.  
+
+![Sprachwahl](assets/232_SprachwahlSichtbar.png)
 
 
 
