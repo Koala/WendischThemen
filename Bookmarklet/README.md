@@ -79,6 +79,18 @@ https://dolnoserbski.de/ndw/pytanje?slownik=*&psistup=serbski&pisanje=originalne
 javascript:s=document.getSelection();if(!s||s==%22%22){void(s=prompt(%27"Ungenaue%20Wortsuche".%20Suchbegriff%20auf%20Sorbisch%20eingeben:%27,%27%27));};if(s){w=open(%27https://dolnoserbski.de/ndw/pytanje?wuraz=%27+encodeURIComponent(s)+%27&slownik=*&psistup=serbski&pisanje=originalne&pozicija=srjedk%27,%27%27,%27%27);w.focus();}
 ```
 
+## Grammatische Übersicht
+
+**Grammatische Übersicht**  
+Hier muss im Suchfeld eine Zahl zwischen 1 und 106 eingegeben werden. Sonderfälle sind auf einer extra Seite zu finden. Dabei wird die Zahl um den Buchstaben "a" erweitert. z.B. 70a, 72a ...  
+Es gibt weitere Aufteilungen. z.B. bei 74 gibt es 74a bis 74h.  
+
+```
+javascript:s=document.getSelection();if(!s||s==%22%22){ void(s=prompt(%27Nummer%20für%20Grammatische%20Übersicht%20eingeben:%27,%27%27));};if(s){w=open(%27https://dolnoserbski.de/dnw/grammatik/%27+encodeURIComponent(s),%27%27,%27%27);w.focus();}
+```
+
+
+
 ## Beispiel
 
 ### Link erstellen:
